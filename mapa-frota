@@ -1,0 +1,53 @@
+# Mapa do Site: Sistema de Gestão de Frotas
+
+```mermaid
+graph TD
+    A[Sistema de Gestão de Frotas] --> B[Gestor de Frota]
+    A --> C[Motorista e Operador]
+    A --> D[Analista Ambiental]
+    A --> E[Técnico de Manutenção]
+
+    B --> B1[Controle de Manutenção e Desempenho]
+    B1 --> B1a[Registro de Manutenções]
+    B1 --> B1b[Alertas Programados]
+    B1 --> B1c[Histórico de Intervenções]
+    B1 --> B1d[Indicadores de Desempenho]
+    B1 --> B1e[Métricas de Custo/Eficiência]
+
+    B --> B2[Geração de Relatórios]
+    B2 --> B2a[Operacionais]
+    B2 --> B2b[Ambientais]
+    B2 --> B2c[Exportação (PDF, Excel, CSV)]
+
+    C --> C1[Visualização do Veículo]
+    C1 --> C1a[Localização/Status]
+    C1 --> C1b[Histórico de Desempenho]
+
+    C --> C2[Alertas de Manutenção]
+    C2 --> C2a[Notificações Automáticas]
+
+    C --> C3[Reporte de Problemas]
+    C3 --> C3a[Registro de Falhas]
+    C3 --> C3b[Upload de Mídias]
+
+    D --> D1[Indicadores Ambientais]
+    D1 --> D1a[Emissões de CO₂]
+    D1 --> D1b[Consumo de Combustível]
+    D1 --> D1c[Comparativos Temporais]
+
+    D --> D2[Sugestões de Melhorias]
+    D2 --> D2a[Recomendações Baseadas em Dados]
+    D2 --> D2b[Alertas de Limites]
+
+    E --> E1[Ordens de Serviço]
+    E1 --> E1a[Detalhes/Prioridades]
+    E1 --> E1b[Atribuição de Tarefas]
+
+    E --> E2[Status de Manutenção]
+    E2 --> E2a[Registro de Andamento]
+    E2 --> E2b[Observações Técnicas]
+
+    E --> E3[Peças Sustentáveis]
+    E3 --> E3a[Registro de Componentes]
+    E3 --> E3b[Impacto Ambiental]
+```
